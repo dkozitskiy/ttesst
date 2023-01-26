@@ -23,3 +23,10 @@ def test_calc():
     q = 1
     otv = 2 * (a + q)
     assert otv == 4
+
+
+def test_calc2():
+    a = 2
+    q = 10
+    otv = q/a
+    assert otv == 5
