@@ -17,3 +17,9 @@ def test_4():
 
 def test_5():
     assert 1==1
+
+def test_calc():
+    a = 1
+    q = 1
+    otv = 2 * (a + q)
+    assert otv == 4
