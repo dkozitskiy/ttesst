@@ -30,3 +30,10 @@ def test_calc2():
     q = 10
     otv = q/a
     assert otv == 5
+
+
+def test_calc3():
+    a = 2
+    q = 10
+    otv = q/a
+    assert otv == 5
